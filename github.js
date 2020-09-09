@@ -1,27 +1,8 @@
-// class Github {
-//     constructor() {
-//         this.client_id = '6f68fbd3b7aaecd55175';
-//         this.client_secret = 'e7dbec77c56041d3b6ce6e973ef99e916fabd392';
-        
-        
-//     }
-
-//     async getUser(user) {
-//         const profileResponse = await fetch(`https://api.github.com/users/${user}?client_id=${this.client_id}&client_secret=${this.client_secret}`);
-
-//         const profileData =await profileResponse.json();
-
-//         return {
-//             profile
-            
-//         }
-//     }
-// }
 
 class Github {
     constructor() {
-      this.client_id = 'd9308aacf8b204d361fd';
-      this.client_secret = '84969aeef73956f4ec9e8716d1840532802bb81b';
+      this.client_id = '6f68fbd3b7aaecd55175';
+      this.client_secret = 'e7dbec77c56041d3b6ce6e973ef99e916fabd392';
       this.repos_count = 5;
       this.repos_sort = 'created: asc';
     }
@@ -39,4 +20,4 @@ class Github {
         repos
       }
     }
-  }
+  } 
